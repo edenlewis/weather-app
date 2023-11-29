@@ -1,0 +1,30 @@
+.title{
+    font-size: 50px;
+    padding-right: 300px;
+}
+.nav{
+    background-color: rgb(236, 204, 238);
+    padding: 5px;
+    margin: -10px;
+    display: flex;
+    justify-content: end;
+}
+.cardContainer{ 
+    padding: 20px;
+    float: right;
+}
+aside{
+    width: 300px;
+    padding: 20px;
+
+}
+.me-2{
+    size: auto;
+}
+.padding-search{
+    padding: 100px;
+}
+.ld{
+    display: flex;
+    justify-content: center;
+}
