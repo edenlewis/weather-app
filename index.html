@@ -11,38 +11,39 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
         <h1 class="navbar-brand">The Weather</h1>
       </div>
-    </nav>  
+    </nav>
     <div class="input-group mb-3 padding-search">
-      <input type="text" class="form-control" id="search-input" placeholder="Location" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+      <input
+        type="text"
+        class="form-control"
+        id="search-input"
+        placeholder="Location"
+        aria-label="Recipient's username"
+        aria-describedby="button-addon2"
+      />
+      <button class="btn btn-primary" type="button" id="button-addon2">
+        Search
+      </button>
     </div>
-  <div class="col-12 col-md-9 p-3 text-light">
-    <h2>Showing results for <span id="result-text"></span></h2>
-    <div id="result-content"></div>
+      <div class="col-12 col-md-9 p-3 text-light">
+      <h2>Showing results for <span id="result-text"></span></h2>
+      <div id="result-content"></div>
+    </div>
+    <div class="weather-container">
+      <h1 id="cityName"></h1>
+      <p id="temp"></p>
+      <p id="wind"></p>
+      <p id="humidity"></p>
+    </div>
+    
   </div>
-    <div class="repoList">
-    <ul class="list-group">
-      <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
-        Cras justo odio
-      </li>
-      <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
-        Dapibus ac facilisis in
-      </li>
-      <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
-        Cras justo odio
-      </li>
-      <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
-        Dapibus ac facilisis in
-      </li>
-    </ul>
-  </div > 
     <script src="./index.js" async defer></script>
   </body>
 </html>
