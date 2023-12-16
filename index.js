@@ -87,11 +87,11 @@ function forecast(city) {
     .then(function (response) {
       return response.json();
     })
-    .then(function (data) {
-      console.log(data);
+    // .then(function (data) {
+      // console.log(data);
       // call the display function here with the data parameter
-      displayWeather(data);
-    })
+      // displayWeather(data);
+    // })
     .catch(function (error) {
       // handle the error here
       console.error(error);
